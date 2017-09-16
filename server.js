@@ -8,7 +8,7 @@ var config = {
     database: 'dvp3011',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: db-dvp3011-38488
+    password: process.env.DB_PASSWORD
 };
 
 var app = express();
